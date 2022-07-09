@@ -4,9 +4,9 @@ html {
   font-family: "Manrope", sans-serif;
   font-size: 62.5%; // makes 1rem = 10px
 
-  @media only screen and (min-width: $breakpoint-desktop) {
-    font-size: 75%;
-  }
+  // @media only screen and (min-width: $breakpoint-desktop) {
+  //   font-size: 75%;
+  // }
 }
 
 body {
