@@ -13,7 +13,7 @@ const pageviewsText = document.querySelector(".pricing__pageview-count");
 const priceText = document.querySelector(".pricing__price");
 const billingTypeText = document.querySelector(".pricing__price-billing-type");
 
-pricingRangeInput.addEventListener("click", function () {
+pricingRangeInput.addEventListener("change", function () {
   state.rangeInputValue = this.value;
 
   updateUI();
