@@ -1,0 +1,16 @@
+{
+  "name": "interactive-pricing-component",
+  "version": "1.0.0",
+  "description": "Interactive pricing component based on the design provided on frontendmentor.io",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Andrija Ivkovic",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2"
+  }
+}

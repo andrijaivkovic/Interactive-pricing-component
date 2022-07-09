@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <script defer type="module" src="./script.js"></script>
+    <link rel="stylesheet" href="sass/main.scss" />
+    <title>Frontend Mentor | Interactive pricing component</title>
+  </head>
+  <body>
+    <main>
+      <section class="pricing">
+        <div class="pricing__header">
+          <h2 class="heading-2 pricing__title">
+            Simple, traffic-based pricing
+          </h2>
+          <p class="pricing__body-text">
+            Sign-up for our 30-day trial. No credit card required.
+          </p>
+        </div>
+        <div class="pricing__container">
+          <div class="pricing__selection">
+            <h3 class="heading-3 pricing__pageview-count">100K PAGEVIEWS</h3>
+            <input
+              autocomplete="off"
+              class="range-input pricing__range-input"
+              type="range"
+              min="0"
+              max="4"
+            />
+            <div class="pricing__price-container">
+              <p class="pricing__price">$16.00</p>
+              <p class="pricing__price-billing-type">/ month</p>
+            </div>
+            <div class="pricing__change-billing-container">
+              <p class="pricing__billing-type">Monthly Billing</p>
+              <input
+                autocomplete="off"
+                id="pricing__change-billing"
+                class="pricing__change-billing"
+                type="checkbox"
+              />
+              <label
+                class="toggle-button"
+                for="pricing__change-billing"
+              ></label>
+              <p class="pricing__billing-type pricing__billing-type--discount">
+                Yearly Billing
+              </p>
+            </div>
+          </div>
+          <div class="pricing__benefits">
+            <ul class="pricing__benefits-list">
+              <li class="pricing__benefits-item">Unlimited websites</li>
+              <li class="pricing__benefits-item">100% data ownership</li>
+              <li class="pricing__benefits-item">Email reports</li>
+            </ul>
+            <button class="button pricing__trial-button">Start my trial</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+
+<!-- Simple, traffic-based pricing
+Sign-up for our 30-day trial. No credit card required. 
+
+Pageviews
+$ /month
+
+Monthly Billing
+Yearly Billing 25% discount
+
+Unlimited websites
+100% data ownership
+Email reports
+
+Start my trial -->
+
+<!-- - 10K pageviews / $8 per month
+- 50K pageviews / $12 per month
+- 100K pageviews / $16 per month
+- 500k pageviews / $24 per month
+- 1M pageviews / $36 per month
+
+If the visitor switches the toggle to yearly billing,
+a 25% discount should be applied to all prices. -->

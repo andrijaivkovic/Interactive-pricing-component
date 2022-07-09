@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap");
+
+html {
+  font-family: "Manrope", sans-serif;
+  font-size: 62.5%; // makes 1rem = 10px
+
+  @media only screen and (min-width: $breakpoint-desktop) {
+    font-size: 75%;
+  }
+}
+
+body {
+  @include flex-column;
+  @include flex-center;
+
+  padding: 2rem 2rem;
+
+  font-size: 1.6rem;
+  line-height: 1.6;
+
+  min-height: 100vh;
+
+  background-color: $color-neutral-white;
+  background-image: url("../images/bg-pattern.svg");
+  background-size: 150rem;
+  background-repeat: no-repeat;
+  // background-size: contain;
+}
+
+main {
+  @include flex-column;
+}

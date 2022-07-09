@@ -1,0 +1,15 @@
+.button {
+  font-size: 1.4rem;
+  color: $color-neutral-lgt-gry-blue-2;
+  padding: 1.25rem 5rem;
+
+  border-radius: 100vmax;
+
+  transition: color 0.15s;
+
+  background-color: $color-neutral-drk-des-blue;
+
+  &:hover {
+    color: $color-neutral-white;
+  }
+}
