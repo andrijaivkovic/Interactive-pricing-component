@@ -24,7 +24,10 @@ body {
   background-image: url("../images/bg-pattern.svg");
   background-size: 150rem;
   background-repeat: no-repeat;
-  // background-size: contain;
+
+  @media only screen and (min-width: $breakpoint-desktop) {
+    background-size: contain;
+  }
 }
 
 main {
