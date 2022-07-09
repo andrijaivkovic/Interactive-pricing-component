@@ -13,6 +13,7 @@ const pageviewsText = document.querySelector(".pricing__pageview-count");
 const priceText = document.querySelector(".pricing__price");
 const billingTypeText = document.querySelector(".pricing__price-billing-type");
 
+// use change event for event listener on range inputs, not input - input event doesn't trigger on mobile
 pricingRangeInput.addEventListener("change", function () {
   state.rangeInputValue = this.value;
 
