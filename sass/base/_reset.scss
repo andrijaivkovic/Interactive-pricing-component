@@ -27,7 +27,6 @@ select {
   cursor: pointer;
   outline: inherit;
 }
-
 input[type="range"] {
   margin-block: 1.25rem;
 }
@@ -53,7 +52,6 @@ input[type="range"]::-webkit-slider-thumb {
     cursor: grabbing;
   }
 }
-
 p,
 h1,
 h2,

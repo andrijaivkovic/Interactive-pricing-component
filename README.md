@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/interactive-pricing-component-built-using-scss-and-vanilla-javascript-z5dyLv83Qa](https://www.frontendmentor.io/solutions/interactive-pricing-component-built-using-scss-and-vanilla-javascript-z5dyLv83Qa)
+- Live Site URL: [https://interactive-pricing-component-ai.netlify.app/](https://interactive-pricing-component-ai.netlify.app/)
 
 ## My process
 
@@ -46,13 +46,19 @@ Users should be able to:
 - SASS using the SCSS syntax
 - Vanilla JavaScript
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
+
+By building this project I practiced my CSS and JavaScript skills, specifically SCSS and DOM manipulation using Vanilla JS.
 
 ### Continued development
 
+In the future I'd like to learn one of the popular JavaScript frontend frameworks/libraries, such as Vue or React.
+
 ### Useful resources
+
+On this [link](https://www.learnhowtoprogram.com/user-interfaces/building-layouts-preprocessors/7-1-sass-architecture) you can learn more about Sass 7-1 Architecture that I used to structure my Sass in this project.
+
+On this [link](http://getbem.com/) you can learn more about BEM naming convention that I used to name my classes in this project.
 
 ## Author
 
